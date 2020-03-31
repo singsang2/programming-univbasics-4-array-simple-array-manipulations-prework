@@ -13,7 +13,7 @@ end
 def pop_with_args(array)
   item = Array.new
   2.times do
-    item.shift(array.pop)
+    item.unshift(array.pop)
   end
   item
 end
@@ -25,7 +25,7 @@ end
 def shift_with_args(array)
   item = Array.new
   2.times do
-    item.shift(array.shift)
+    item.unshift(array.shift)
   end
   item  
 end
