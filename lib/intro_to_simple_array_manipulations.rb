@@ -25,7 +25,7 @@ end
 def shift_with_args(array)
   item = Array.new
   2.times do
-    item.unshift(array.shift)
+    item << array.shift
   end
   item  
 end
